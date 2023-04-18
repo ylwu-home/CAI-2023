@@ -1008,6 +1008,13 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 4.625rem;
   color: #fff;
   font-weight: 400;
+  margin-bottom: 5px;
+  text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+ 
+}
+.banner .block h4{
+  color: #ff6600;
+  font-weight: 400;
   text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
   font-style: italic;
 }
