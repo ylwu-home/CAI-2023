@@ -8,14 +8,24 @@
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700");
 html {
+  height: 100%;
+  
   font-size: 16px;
 }
 
 body {
+ 
+  /* display:flex;
+  flex-direction:column; */
+ 
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -100px;
+  padding-bottom: 100px;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   color: #222222;
@@ -46,7 +56,7 @@ h6 {
   font-size: 1.25rem;
 }
 
-p, a, li, blockquote, label {
+p, li, blockquote, label {
   font-size: 1rem;
   line-height: 26px;
   color: #070707;
@@ -841,14 +851,19 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .subfooter {
+  /* height: 100px; */
+  
+  
   background: #2a2a37;
   padding: 18px 0;
+  /* flex-grow: 0;
+  flex-shrink: 0; */
 }
 .subfooter .copyright-text p {
   font-family: "Montserrat", sans-serif;
 }
 .subfooter .copyright-text p a {
-  color: #ff6600;
+  color: #00C896;
 }
 @media (max-width: 767px) {
   .subfooter .copyright-text {
@@ -860,7 +875,7 @@ select.form-control:not([size]):not([multiple]) {
   height: 45px;
   width: 45px;
   text-align: center;
-  background: #ff6600;
+  background: #00C896;
   float: right;
 }
 .subfooter .to-top i {
@@ -1019,6 +1034,13 @@ select.form-control:not([size]):not([multiple]) {
   text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
   /* font-style: italic; */
 }
+/* .banner .block a{
+  color: #00C896;
+  
+  font-size: 2.225rem;
+  font-weight: 500;
+  text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+} */
 @media (max-width: 767px) {
   .banner .block h2 {
     font-size: 3.2rem;
