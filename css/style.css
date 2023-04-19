@@ -49,7 +49,7 @@ h6 {
 p, a, li, blockquote, label {
   font-size: 1rem;
   line-height: 26px;
-  color: #848484;
+  color: #070707;
   margin-bottom: 0;
 }
 
@@ -93,7 +93,7 @@ ul.social-links li a i {
 .overlay:after {
   content: "";
   background: -webkit-linear-gradient(-45deg, #1e5799 0%, #1d1546 0%, #1a0b25 100%, #207cca 100%);
-  opacity: 0.2;
+  opacity: 0.6;
   position: absolute;
   top: 0;
   left: 0;
@@ -104,7 +104,7 @@ ul.social-links li a i {
 .overlay-lighter:before {
   content: "";
   background: -webkit-linear-gradient(-45deg, #1e5799 0%, #1d1546 0%, #1a0b25 100%, #207cca 100%);
-  opacity: 0.2;
+  opacity: 0.6;
   position: absolute;
   top: 0;
   left: 0;
@@ -286,7 +286,7 @@ button:hover {
 }
 
 .bg-title {
-  background: url(../images/background/page-title-bg.jpg) no-repeat;
+  background: url(../images/background/exeter_campus.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -1013,11 +1013,11 @@ select.form-control:not([size]):not([multiple]) {
  
 }
 .banner .block h4{
-  color: #ff6600;
-  font-size: 2.625rem;
-  font-weight: 400;
+  color: #00C896;
+  font-size: 2.225rem;
+  font-weight: 500;
   text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
-  font-style: italic;
+  /* font-style: italic; */
 }
 @media (max-width: 767px) {
   .banner .block h2 {
@@ -1257,7 +1257,7 @@ select.form-control:not([size]):not([multiple]) {
 .speakers .speaker-item .content h5 a {
   font-size: 22px;
   color: #222222;
-  font-weight: 400;
+  /* font-weight: 400; */
   margin-bottom: 0;
 }
 .speakers .speaker-item .content h5 a:hover {
