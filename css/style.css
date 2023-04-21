@@ -1159,6 +1159,11 @@ select.form-control:not([size]):not([multiple]) {
   color: #222222;
   font-size: 1.0625rem;
 }
+.about .content-block .description-one h4 {
+  color: #222222;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
 .about .content-block .description-two {
   margin-bottom: 30px;
 }
